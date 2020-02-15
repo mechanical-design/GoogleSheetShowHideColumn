@@ -1,4 +1,5 @@
 function viewType(){
+//Dropdown cell is set to B2
   var evType = SpreadsheetApp.getActive().getRange("B2").getValues().toString();
   var spreadsheet = SpreadsheetApp.getActive();
   //Test1
@@ -10,7 +11,7 @@ function viewType(){
   spreadsheet.getActiveSheet().showColumns(spreadsheet.getActiveRange().getColumn(), spreadsheet.getActiveRange().getNumColumns());
   spreadsheet.getRange('F:F').activate();    
   }
-  
+    //Test2
   if (evType == 'Test2'){
   spreadsheet.getActiveSheet().hideColumns(5, 122);
   spreadsheet.getRange('test2').activate();
@@ -19,7 +20,7 @@ function viewType(){
   spreadsheet.getActiveSheet().showColumns(spreadsheet.getActiveRange().getColumn(), spreadsheet.getActiveRange().getNumColumns());
   spreadsheet.getRange('J:J').activate();
   }
-  
+
   if (evType == 'Assig1'){
   spreadsheet.getActiveSheet().hideColumns(5, 122);
   spreadsheet.getRange('Assig1').activate();
