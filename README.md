@@ -14,3 +14,5 @@ Steps to create this sheet.
 1. Create "Named ranged" for each evaluation. Ex. 'Test1','Test2'
 2. Create "Data evaluation" for a cell. Set "List of Items", insert Test1,Test2 as in No. 1.
 3. Open "Tools>Script Editor" and paste the code. 
+
+![alt text](https://raw.githubusercontent.com/mechanical-design/GoogleSheetShowHideColumn/blob/master/Dropdown%26ViewButton.png)
